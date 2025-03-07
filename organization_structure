@@ -1,0 +1,32 @@
+ALM_fire/
+│
+├── docs/             
+│   ├── index.md     
+│   └── final_report.html
+├── data/            
+│   ├── raw 
+│   │   ├── NTEMS
+│   │   │    └── firepolygons.shp
+│   │   │    └── dnbr.tiff
+│   │   ├── VRI
+│   │   │    └── MODIS.tiff
+│   │   └── AOS
+│   │        └── MODIS.tiff
+│   ├── processing 
+│   │   ├── climatevariables.csv
+│   │   └── RMF_all.csv
+│   ├── model_inputs
+│   │   └── RFM_final.csv
+│
+├── scripts/         
+│   ├── clean_input_data_01.R
+│   ├── climatevariables.R
+│   ├── run_rf_model.R
+│   └── generate_boxplot_04.R  
+│
+├── figs/             
+│   └── variable_importance.png.md  
+│
+├── .gitignore       
+├── README.md        
+├── LICENSE 
